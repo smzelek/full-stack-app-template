@@ -1,0 +1,40 @@
+@import './_vars';
+@import './_mixins';
+
+html,
+body {
+  overscroll-behavior-x: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter';
+}
+
+#root {
+  display: contents;
+}
+
+html,
+body {
+  max-width: 100vw;
+  height: 100%;
+}
+
+body {
+  background: white;
+}
+
+@include is(mobile-screen) {
+}
+
+@include is(small-screen) {
+}
+
+@include is(medium-screen) {
+}
+
+@include is(large-screen) {
+}
